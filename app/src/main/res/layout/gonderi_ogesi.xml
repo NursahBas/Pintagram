@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profil_resmi_Gonderi_Ogesi"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txt_kullaniciadi_Gonderi_Ogesi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Kullanıcı Adı"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/gonderi_Resmi_Gonderi_Ogesi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/begeni_Gonderi_Ogesi"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_begeni" />
+
+            <ImageView
+                android:id="@+id/kaydet_Gonderi_Ogesi"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_kaydet" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_begeniler_Gonderi_Ogesi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 beğeni"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_gonderen_Gonderi_Ogesi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gönderen"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_gonderiHakkında_Gonderi_Ogesi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gönderi hakkında"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
